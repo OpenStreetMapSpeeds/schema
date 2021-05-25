@@ -4,9 +4,9 @@ This repository houses both a discription and outline of the JSON schema for the
 
 ## Schema
 
-Broadly the schema is a collection of nested JSON objects. At the top level we have an array of objects where each object represents a geographic region. The region may be specified using the optional (iso3166-1 country codes)[https://en.wikipedia.org/wiki/ISO_3166-1] and (iso3166-2 principal subdivision)[https://en.wikipedia.org/wiki/ISO_3166-2] codes. These geographies are treated as a heirarchy to allow varying degrees of specificity. For example one can specify a global set of speeds (ie applies to the whole world) by simply omitting both the `iso3166-1` and `iso3166-2` keys in a given object. To specify speeds accross an entire country one need only populate the `iso3166-1` key and omit the `iso3166-2` key. For full granularity one must include both `iso3166-1` and `iso3166-2`.
+Broadly the schema is a collection of nested JSON objects. At the top level we have an array of objects where each object represents a geographic region. The region may be specified using the optional [iso3166-1 country codes](https://en.wikipedia.org/wiki/ISO_3166-1) and [iso3166-2 principal subdivision](https://en.wikipedia.org/wiki/ISO_3166-2) codes. These geographies are treated as a heirarchy to allow varying degrees of specificity. For example one can specify a global set of speeds (ie applies to the whole world) by simply omitting both the `iso3166-1` and `iso3166-2` keys in a given object. To specify speeds accross an entire country one need only populate the `iso3166-1` key and omit the `iso3166-2` key. For full granularity one must include both `iso3166-1` and `iso3166-2`.
 
-Within a given object there are 3 divisions based on assumed changes in road network congestion, these are `rural`, `suburban` and `urban`. We deliberately avoid a one size fits all defintion of these categorizations as they may differ from system to system. See the (conflation)[https://github.com/OpenStreetMapSpeeds/conflation] repo for more information about where the data comes from and how it is used to populate these divisions.
+Within a given object there are 3 divisions based on assumed changes in road network congestion, these are `rural`, `suburban` and `urban`. We deliberately avoid a one size fits all defintion of these categorizations as they may differ from system to system. See the [conflation](https://github.com/OpenStreetMapSpeeds/conflation) repo for more information about where the data comes from and how it is used to populate these divisions.
 
 Within each density/populational division we further classify by road types which should be somewhat familiar to those familiar with OSM. There are really only two types of information we use to do this classification, the functional road class (FRC or `highway` tag in OSM) and the form of way (FoW may come from many different tag values in OSM). The `highway` tag values that we assign speeds for are in descending importance: `motorway`, `trunk`, `primary`, `secondary`, `tertiary`, `unclassified`, `residential` and `service`.
 
@@ -22,7 +22,7 @@ The schema, since it uses arrays does not allow for the omission of values howev
 
 ## Sample Data
 
-Below is a visual sample of data schema. For the latest actual data please refer to (default_speeds.json)[default_speeds.json].
+Below is a visual sample of data schema. For the latest actual data please refer to [default_speeds.json](default_speeds.json).
 
 ```json
 [
