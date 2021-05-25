@@ -1,6 +1,6 @@
 # OpenStreetMapSpeeds Schema
 
-This repository houses both a discription and outline of the JSON schema for the data artifact the conflation repository produces as well as the latest version of the artifact itself.
+This repository houses both a description and outline of the JSON schema for the data artifact the conflation repository produces as well as the latest version of the artifact itself.
 
 ## Schema
 
