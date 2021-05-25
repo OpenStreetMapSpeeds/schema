@@ -16,7 +16,7 @@ We also differentiate roundabouts which are tagged as `junction=roundabout` on O
 
 For the `highway=*_link` tags we have two classifications. Those that appear with any kind of signage (eg. `destination=*`) which we call `link_exiting` or those without signage which we call `link_turning`. Note that we only support an array of speeds for the 5 most important `highway=*_link` tags ie. `motorway_link`, `trunk_link`, `primary_link`, `secondary_link` and `tertiary_link`.
 
-Finally we have all other ways which do not have a designated or implied form of way. For these we simply supply a speed per `highway` tag as mentioned above, where the first speed is for `highway=motorway` and the last speed is for `highway=service`.
+Finally we the `ways` array, which is for ways which do not have a designated or implied form of way. For these we simply supply a speed per `highway` tag as mentioned above, where the first speed is for `highway=motorway` and the last speed is for `highway=service`.
 
 The schema, since it uses arrays, does not allow for the omission of values however one could use `0` or `null` to signal no data for a particular categorization.
 
