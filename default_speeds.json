@@ -1,0 +1,145 @@
+[
+  {
+    "rural": {
+      "way": [100,65,55,45,35,25,20,10],
+      "link_exiting": [50,45,40,40,40],
+      "link_turning": [50,35,35,30,30],
+      "roundabout": [50,35,25,25,25,20,20,10],
+      "driveway": 15,"alley": 10,"parking_aisle": 15,"drive-through": 10
+    },
+    "suburban": {
+      "way": [90,50,40,35,30,20,15,10],
+      "link_exiting": [60,45,40,40,35],
+      "link_turning": [55,35,30,25,25],
+      "roundabout": [30,30,25,20,20,20,20,15],
+      "driveway": 15,"alley": 10,"parking_aisle": 10,"drive-through": 10
+    },
+    "urban": {
+      "way": [80,35,30,30,25,20,15,10],
+      "link_exiting": [60,40,35,35,30],
+      "link_turning": [60,30,25,20,20],
+      "roundabout": [25,25,20,20,20,20,15,10],
+      "driveway": 15,"alley": 10,"parking_aisle": 10,"drive-through": 10
+    }
+  },
+  {
+    "iso3166-1": "KR",
+    "rural": {
+      "way": [95,80,50,40,30,20,15,10],
+      "link_exiting": [60,50,50,45,40],
+      "link_turning": [50,45,40,35,30],
+      "roundabout": [25,20,20,20,20,20,15,15],
+      "driveway": 15,"alley": 10,"parking_aisle": 15,"drive-through": 10
+    },
+    "suburban": {
+      "way": [80,65,30,25,20,20,15,10],
+      "link_exiting": [55,50,40,35,35],
+      "link_turning": [50,40,30,30,25],
+      "roundabout": [25,20,20,20,20,10,15,15],
+      "driveway": 10,"alley": 10,"parking_aisle": 10,"drive-through": 10
+    },
+    "urban": {
+      "way": [60,45,25,20,20,15,15,10],
+      "link_exiting": [60,35,20,20,20],
+      "link_turning": [40,25,20,15,15],
+      "roundabout": [20,20,20,15,15,20,10,15],
+      "driveway": 10,"alley": 10,"parking_aisle": 10,"drive-through": 10
+    }
+  },
+  {
+    "iso3166-1": "ID",
+    "rural": {
+      "way": [90,45,35,30,25,20,15,10],
+      "link_exiting": [45,40,40,40,30],
+      "link_turning": [35,20,20,20,15],
+      "roundabout": [30,30,25,25,25,25,15,10],
+      "driveway": 15,"alley": 15,"parking_aisle": 10,"drive-through": 10
+    },
+    "suburban": {
+      "way": [80,35,30,30,25,20,15,10],
+      "link_exiting": [40,30,25,30,25],
+      "link_turning": [35,25,15,20,15],
+      "roundabout": [20,20,20,20,20,20,15,15],
+      "driveway": 10,"alley": 15,"parking_aisle": 10,"drive-through": 10
+    },
+    "urban": {
+      "way": [60,30,25,20,20,20,15,10],
+      "link_exiting": [30,20,20,20,20],
+      "link_turning": [30,15,15,15,15],
+      "roundabout": [20,20,15,20,20,15,15,10],
+      "driveway": 15,"alley": 15,"parking_aisle": 10,"drive-through": 10
+    }
+  },
+  {
+    "iso3166-1": "CN",
+    "rural": {
+      "way": [90,50,40,35,30,20,20,10],
+      "link_exiting": [50,45,45,40,40],
+      "link_turning": [50,40,40,35,30],
+      "roundabout": [25,25,25,25,25,20,20,10],
+      "driveway": 20,"alley": 10,"parking_aisle": 10,"drive-through": 10
+    },
+    "suburban": {
+      "way": [75,40,30,25,25,20,20,10],
+      "link_exiting": [45,35,35,30,25],
+      "link_turning": [45,35,30,25,25],
+      "roundabout": [25,25,20,20,20,20,15,10],
+      "driveway": 15,"alley": 10,"parking_aisle": 15,"drive-through": 15
+    },
+    "urban": {
+      "way": [50,40,25,20,20,15,15,10],
+      "link_exiting": [45,25,25,25,25],
+      "link_turning": [35,30,25,20,20],
+      "roundabout": [25,25,20,20,20,10,10,10],
+      "driveway": 5,"alley": 10,"parking_aisle": 10,"drive-through": 10
+    }
+  },
+  {
+    "iso3166-1": "VN",
+    "rural": {
+      "way": [75,50,40,35,30,25,15,5],
+      "link_exiting": [40,40,40,35,35],
+      "link_turning": [30,25,20,20,20],
+      "roundabout": [25,25,25,25,25,25,20,10],
+      "driveway": 15,"alley": 10,"parking_aisle": 10,"drive-through": 10
+    },
+    "suburban": {
+      "way": [65,40,30,30,25,25,20,10],
+      "link_exiting": [25,25,25,25,20],
+      "link_turning": [30,20,20,20,20],
+      "roundabout": [20,20,20,20,25,20,20,10],
+      "driveway": 20,"alley": 10,"parking_aisle": 5,"drive-through": 10
+    },
+    "urban": {
+      "way": [40,30,25,25,20,25,15,10],
+      "link_exiting": [35,30,20,20,15],
+      "link_turning": [35,25,20,15,15],
+      "roundabout": [20,20,20,20,20,25,15,10],
+      "driveway": 10,"alley": 10,"parking_aisle": 10,"drive-through": 10
+    }
+  },
+  {
+    "iso3166-1": "FR",
+    "rural": {
+      "way": [105,90,55,45,40,30,20,10],
+      "link_exiting": [50,50,40,40,35],
+      "link_turning": [45,45,35,35,30],
+      "roundabout": [25,25,25,25,25,20,20,15],
+      "driveway": 15,"alley": 10,"parking_aisle": 15,"drive-through": 15
+    },
+    "suburban": {
+      "way": [90,80,35,30,30,25,20,10],
+      "link_exiting": [55,50,40,35,30],
+      "link_turning": [50,50,35,30,25],
+      "roundabout": [25,25,25,20,20,20,20,15],
+      "driveway": 15,"alley": 10,"parking_aisle": 15,"drive-through": 10
+    },
+    "urban": {
+      "way": [70,55,20,20,20,20,15,10],
+      "link_exiting": [50,45,35,25,30],
+      "link_turning": [50,40,25,20,20],
+      "roundabout": [20,20,20,20,20,15,15,10],
+      "driveway": 15,"alley": 10,"parking_aisle": 15,"drive-through": 10
+    }
+  }
+]
