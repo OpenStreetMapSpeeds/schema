@@ -1,0 +1,16 @@
+name: OpenStreetMapSpeeds Schema Validation
+on: [pull_request]
+
+jobs:
+  build:
+    name: Schema Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Validate
+        shell: bash
+        run: |
+          # we dont enforce this on a draft
+          pip install jsonschema
+          jsonschema -i default_speeds.json schema.json
+          exit $?
