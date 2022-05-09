@@ -17667,8 +17667,7 @@
       "roundabout": [null, null, null, null, null, null, null, null], 
       "driveway": null, "alley": null, "parking_aisle": null, "drive-through": null}},
   {
-    "iso3166-1": "GB", 
-    "iso3166-2": "SCT", 
+    "iso3166-1": "SCT", 
     "rural": {
       "way": [101, 70, 47, 41, 34, 25, 14, 7], 
       "link_exiting": [51, 33, 46, 45, 35], 
@@ -18773,26 +18772,6 @@
       "link_turning": [21, 21, 21, 21, 21], 
       "roundabout": [null, null, null, null, 27, null, null, null], 
       "driveway": null, "alley": null, "parking_aisle": null, "drive-through": null}},
-  {
-    "iso3166-1": "GB", 
-    "rural": {
-      "way": [98, 64, 46, 42, 35, 26, 14, 9], 
-      "link_exiting": [48, 40, 41, 42, 36], 
-      "link_turning": [69, 37, 38, 33, 28], 
-      "roundabout": [40, 30, 26, 24, 24, 22, 17, 16], 
-      "driveway": 9, "alley": 6, "parking_aisle": 10, "drive-through": 15}, 
-    "suburban": {
-      "way": [95, 39, 30, 30, 28, 20, 14, 9], 
-      "link_exiting": [71, 35, 31, 28, 23], 
-      "link_turning": [71, 36, 26, 22, 20], 
-      "roundabout": [34, 28, 24, 22, 22, 20, 18, 15], 
-      "driveway": 8, "alley": 5, "parking_aisle": 11, "drive-through": 7}, 
-    "urban": {
-      "way": [76, 26, 21, 22, 22, 16, 14, 10], 
-      "link_exiting": [61, 21, 22, 18, 22], 
-      "link_turning": [54, 18, 16, 16, 16], 
-      "roundabout": [27, 24, 21, 20, 20, 18, 17, 14], 
-      "driveway": 11, "alley": 6, "parking_aisle": 12, "drive-through": 11}},
   {
     "iso3166-1": "CG", 
     "iso3166-2": "BZV", 
@@ -20378,8 +20357,7 @@
       "roundabout": [null, null, null, null, null, null, null, null], 
       "driveway": null, "alley": null, "parking_aisle": null, "drive-through": null}},
   {
-    "iso3166-1": "GB", 
-    "iso3166-2": "ENG", 
+    "iso3166-1": "ENG", 
     "rural": {
       "way": [97, 63, 46, 42, 35, 25, 13, 9], 
       "link_exiting": [65, 40, 41, 38, 36], 
@@ -25141,8 +25119,7 @@
       "roundabout": [null, null, null, null, null, null, 18, null], 
       "driveway": null, "alley": null, "parking_aisle": 5, "drive-through": null}},
   {
-    "iso3166-1": "GB", 
-    "iso3166-2": "NIR", 
+    "iso3166-1": "NIR", 
     "rural": {
       "way": [108, 72, 52, 52, 41, 32, 14, 9], 
       "link_exiting": [44, 45, 51, 52, 31], 
@@ -45215,8 +45192,7 @@
       "roundabout": [null, null, null, null, null, null, null, null], 
       "driveway": null, "alley": null, "parking_aisle": null, "drive-through": null}},
   {
-    "iso3166-1": "GB", 
-    "iso3166-2": "WLS", 
+    "iso3166-1": "WLS", 
     "rural": {
       "way": [103, 63, 44, 39, 31, 26, 13, 5], 
       "link_exiting": [null, 30, 34, 32, 36], 
